@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('background1.png');
+    background-size: cover;
+    color: white;
+}
+
+.main-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group label, .form-group input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    color: white; /* 设置文本颜色为黑色 */
+    border: none; /* 移除边框 */
+    /* 其他必要的样式 */
+
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: #004494;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.large-textarea, .large-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+    
+}
+
+
+
+
+/* style2.css */
+.navbar-container {
+    background-color: #333; /* 导航栏背景颜色 */
+    overflow: hidden; /* 清除浮动 */
+    width: 100%; /* 宽度为整个视口宽度 */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* 可选：添加阴影效果 */
+    padding: 10px 0; /* 上下内边距 */
+    display: flex; /* 使用flex布局 */
+    justify-content: center; /* 水平居中 */
+    position: fixed; /* 固定在页面顶部 */
+    top: 0; /* 顶部对齐 */
+
+}
+
+.navbar-button {
+    display: inline-block; /* 使链接以块级元素的方式横向排列 */
+    color: white; /* 文本颜色 */
+    text-align: center; /* 文本居中 */
+    padding: 10px 15px; /* 内边距 */
+    text-decoration: none; /* 去除下划线 */
+    font-size: 16px; /* 字体大小 */
+    margin: 0 10px; /* 按钮之间的间距 */
+    border: none; /* 无边框 */
+    border-radius: 4px; /* 边框圆角 */
+    background-color: #0056b3; /* 背景颜色 */
+    cursor: pointer; /* 鼠标指针变为手指形状 */
+}
+
+.navbar-button:hover {
+    background-color: #004494; /* 鼠标悬停时的背景颜色 */
+}
